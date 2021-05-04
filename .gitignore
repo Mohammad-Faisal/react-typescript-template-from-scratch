@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/build
+.vscode
+yarn-error.log
+yarn.lock
+.idea
