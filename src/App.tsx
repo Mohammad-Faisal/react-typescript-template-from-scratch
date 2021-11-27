@@ -4,12 +4,11 @@ import { ClickCounter } from './components/ClickCounter';
 import './App.css';
 
 export const App = () => {
-    const num = 0;
     return (
-        <>
+        <div>
             <ClickCounter />
-            {/* <img src={image}/> */}
-            <h1 className="app"> This is asdf a asdfadsf and its</h1>
-        </>
+            <img style={{ width: '500px', height: '300px' }} src={image} alt="placeholder" />
+            <h1 className="app"> This is a react app which is built from scratch</h1>
+        </div>
     );
 };

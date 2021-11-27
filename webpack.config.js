@@ -44,10 +44,10 @@ module.exports = {
         new CleanWebpackPlugin(),
     ],
     devServer: {
-        contentBase: path.join(__dirname, './src'),
+        static: path.join(__dirname, './src'),
         port: 3001,
-        hotOnly: true,
+        hot: 'only',
         compress: true,
         open: true,
     },
-}
+};
